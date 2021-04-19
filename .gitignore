@@ -1,0 +1,8 @@
+_site/
+*.pyc
+.DS_Store
+.doit.db
+state_data.json
+cache/
+public/
+*.csv
