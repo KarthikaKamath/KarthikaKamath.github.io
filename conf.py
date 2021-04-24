@@ -140,7 +140,17 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.rst', 'About Me'),
+        ("/", "About Me"),
+        (
+         (
+           ("https://www.linkedin.com/in/karthika-kamath", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
+	        ("https://www.instagram.com/karthikakamath", "Instagram <i class='fas fa-external-link-alt'></i>"),
+	        ("https://twitter.com/KarthikaKamath", "Twitter <i class='fas fa-external-link-alt'></i>"),
+            ("https://www.youtube.com/channel/UCRY-vUMmiolQr55MsZeNRkA", "YouTube <i class='fas fa-external-link-alt'></i>"),
+            ("https://github.com/KarthikaKamath", "Github <i class='fas fa-external-link-alt'></i>"),
+         ),
+         ' ' 
+     ),
         #("/archive.html", "Archive"),
         #("/categories/", "Tags"),
         #("/rss.xml", "RSS feed"),
@@ -155,12 +165,18 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+THEME = "hack"
+#LOGO_URL = '/assets/img/blank.png'
+GLOBAL_CONTEXT = {
+        'HACK_VARIANT': 'dark'
+}
+
+
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
 # as an accent color (the default ones don’t). Must be a HEX value.
-THEME_COLOR = '#5670d4'
+#THEME_COLOR = '#5670d4'
 
 # Theme configuration. Fully theme-dependent. (translatable)
 # Samples for bootblog4 (enabled) and bootstrap4 (commented) follow.
@@ -170,23 +186,23 @@ THEME_COLOR = '#5670d4'
 #                      navbar_custom_bg (defaults to '')
 
 # Config for bootblog4:
-THEME_CONFIG = {
-    DEFAULT_LANG: {
-        # Show the latest featured post in a large box, with the previewimage as its background.
-        'featured_large': False,
-        # Show the first (remaining) two featured posts in small boxes.
-        'featured_small': False,
-        # Show featured posts on mobile.
-        'featured_on_mobile': True,
-        # Show image in `featured_large` on mobile.
-        # `featured_small` displays them only on desktop.
-        'featured_large_image_on_mobile': True,
-        # Strip HTML from featured post text.
-        'featured_strip_html': False,
-        # Contents of the sidebar, If empty, the sidebar is not displayed.
-        'sidebar': ''
-    }
-}
+# THEME_CONFIG = {
+    # DEFAULT_LANG: {
+        # # Show the latest featured post in a large box, with the previewimage as its background.
+        # 'featured_large': False,
+        # # Show the first (remaining) two featured posts in small boxes.
+        # 'featured_small': False,
+        # # Show featured posts on mobile.
+        # 'featured_on_mobile': True,
+        # # Show image in `featured_large` on mobile.
+        # # `featured_small` displays them only on desktop.
+        # 'featured_large_image_on_mobile': True,
+        # # Strip HTML from featured post text.
+        # 'featured_strip_html': False,
+        # # Contents of the sidebar, If empty, the sidebar is not displayed.
+        # 'sidebar': ''
+    # }
+# }
 # Config for bootstrap4:
 # THEME_CONFIG = {
 #     DEFAULT_LANG: {
@@ -241,10 +257,10 @@ POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "", "page.tmpl"),
+    ("pages/*.md", "", "page.tmpl"),
+    ("pages/*.txt", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
 )
 
 
@@ -575,7 +591,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -1399,7 +1415,7 @@ WARN_ABOUT_TAG_METADATA = False
 
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
-GLOBAL_CONTEXT = {}
+#GLOBAL_CONTEXT = {}
 
 # Add functions here and they will be called with template
 # GLOBAL_CONTEXT as parameter when the template is about to be
