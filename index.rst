@@ -12,7 +12,7 @@
 	<p class="lead"> I am currently working in Fractal Analytics where I help my client make data driven decisions in the digital marketing domain. Previously I have also worked as a software developer in UBS where I was working in the credit risk domain. But the domain I am really passionate about is healthtech and more precisely I am deeply drawn to the idea of multi-disciplinary research that can solve a neuroscience problem.</p>
 	<p class="lead"> I am an active learner and observer. I love discussing algorithms in data science. I am also involved in building a data science community to educate people in this field. I like to start my day with Hackernews.</p>
 	<p class="lead"> For relaxing I dance, I can literally learn a choreography that I like in 2 mins and then just keep dancing on repeat or most of the time I just play a song and do freestyle in front of a mirror.</p>
-	<p class="lead"> Download my CV - <a href="https://github.com/KarthikaKamath/KarthikaKamath.github.io/blob/main/Karthika_Kamath.pdf" >Karthika_Kamath.pdf</a></p>
+	<p class="lead"> Download my CV - <a href="https://github.com/KarthikaKamath/resume/blob/main/Karthika_Kamath.pdf" >Karthika_Kamath.pdf</a></p>
 	<p class="lead"> Feel free to drop me a mail - kamathkarthika@gmail.com</p>
 	
 .. thumbnail:: /images/book_recco.png
