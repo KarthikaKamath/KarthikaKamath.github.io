@@ -11,55 +11,7 @@
  </url>
  <url>
   <loc>https://example.com/archive.html</loc>
-  <lastmod>2021-04-24T17:30:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/</loc>
-  <lastmod>2021-04-24T17:23:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/plugin/markdown/example.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/plugin/notes-server/notes.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/plugin/notes/notes.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/examples/barebones.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/examples/embedded-media.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/examples/math.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/examples/slide-backgrounds.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/test-markdown-element-attributes.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/test-markdown-slide-attributes.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/test-markdown.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/assets/reveal/test/test.html</loc>
-  <lastmod>2021-04-24T16:41:00Z</lastmod>
+  <lastmod>2021-11-13T07:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://example.com/blog/</loc>
@@ -68,17 +20,5 @@
  <url>
   <loc>https://example.com/categories/</loc>
   <lastmod>2021-04-19T12:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/galleries/</loc>
-  <lastmod>2021-04-19T12:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/listings/</loc>
-  <lastmod>2021-04-19T12:26:00Z</lastmod>
- </url>
- <url>
-  <loc>https://example.com/pages/</loc>
-  <lastmod>2021-04-19T12:31:00Z</lastmod>
  </url>
 </urlset>
