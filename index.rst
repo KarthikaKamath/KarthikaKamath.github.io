@@ -17,6 +17,7 @@
 	
 .. thumbnail:: /images/book_recco.png
    :align: center
+   :scale: 15
    :alt: book reccomendation
 	
 .. raw:: html
