@@ -15,9 +15,8 @@
 	<p class="lead"> Download my CV - <a href="https://github.com/KarthikaKamath/KarthikaKamath.github.io/blob/main/Karthika_Kamath.pdf" >Karthika_Kamath.pdf</a></p>
 	<p class="lead"> Feel free to drop me a mail - kamathkarthika@gmail.com</p>
 	
-.. image:: /images/book_recco.png
+.. thumbnail:: /images/book_recco.png
    :align: center
-   :scale: 20
    :alt: book reccomendation
 	
 .. raw:: html
