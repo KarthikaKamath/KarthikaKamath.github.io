@@ -11,7 +11,7 @@
 	<p class="lead"> Hi! I am Karthika Kamath. &#128587; </p>
 	<p class="lead"> I am currently working in Fractal Analytics in the team Fractal Cerebral, building a new capability of Neuroscience+AI for the firm.</p>
 	<p class="lead"> I love learning & discussing AI algorithms &#129504; For relaxing I dance and choreograph &#128131; </p>
-	<p class="lead"> Download my CV - <a href="https://github.com/KarthikaKamath/resume/blob/main/KarthikaKamath.pdf" >Karthika_Kamath.pdf</a> </p>
+	<p class="lead"> <a href="https://github.com/KarthikaKamath/resume/blob/main/KarthikaKamath.pdf" >My Resume</a> </p>
 	<p class="lead"> Feel free to drop me a mail - kamathkarthika@gmail.com</p>
 	
 .. thumbnail:: /images/book_recco.png
