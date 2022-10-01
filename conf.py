@@ -140,14 +140,14 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/", "About Me"),
+        #("/", "About Me"),
         (
          (
            ("https://www.linkedin.com/in/karthika-kamath", "LinkedIn <i class='fas fa-external-link-alt'></i>"),
-	        ("https://www.instagram.com/karthikakamath", "Instagram <i class='fas fa-external-link-alt'></i>"),
 	        ("https://twitter.com/KarthikaKamath", "Twitter <i class='fas fa-external-link-alt'></i>"),
-            ("https://www.youtube.com/channel/UCRY-vUMmiolQr55MsZeNRkA", "YouTube <i class='fas fa-external-link-alt'></i>"),
+            #("https://www.youtube.com/channel/UCRY-vUMmiolQr55MsZeNRkA", "YouTube <i class='fas fa-external-link-alt'></i>"),
             ("https://github.com/KarthikaKamath", "Github <i class='fas fa-external-link-alt'></i>"),
+            ("https://www.instagram.com/karthikakamath", "Instagram <i class='fas fa-external-link-alt'></i>"),
          ),
          ' ' 
      ),
